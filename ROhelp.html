@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Volkswagen RO</title>
+    <link rel="stylesheet" href="/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <a class="logo" href="ROindex.html"><img src="https://i.imgur.com/EuY93YK.png" alt="logo"></a>
+        <nav>
+            <ul class="nav__links">
+                <li><a href="ROindex.html">Acasă</a></li>
+                <li><a href="#liste">Contact</a></li>
+                <li><select name="language" class="selectLang" onchange="javascript:handleSelect(this)">
+                    <option value="ROhelp">RO</option>
+                    <option value="ENhelp">EN</option>
+                </select></li>
+                <li><a href="ROindex.html"><img src="https://i.imgur.com/KsVZBqU.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sectionHelp">
+        <div class="helpContainerTitle">
+            <h1 class="helpTitle">
+                Volkswagen
+            </h1>
+            <br>
+            <h2>For a better future!</h2>
+        </div>
+        <br><br><br>
+        <div class="formsHelp">
+            <form autocomplete="off" autocapitalize="on" action="https://formsubmit.co/darius.ivasca77@email.com" method="POST">
+                <label class="labels">Nume</label>
+                <br>
+                <input type="text" name="name" placeholder="nume..." required="" oninvalid="this.setCustomValidity('Va rugam scrieti numele dvs, fara cifre')" oninput="setCustomValidity('')">
+                <label class="labels">Prenume</label>
+                <br>
+                <input type="text" name="surname" placeholder="prenume ..." required="" oninvalid="this.setCustomValidity('Va rugam scrieti prenumele dvs, fara cifre')" oninput="setCustomValidity('')">
+
+                <label class="labels">Email</label>
+                <br>
+                <input type="email" name="email" placeholder="email" required="" oninvalid="this.setCustomValidity('Va rugam scrieti mail-ul dumneavoastra, email-ul trebuie sa contina un nume de utilizator si cu @, ca sa poata fi valid')" oninput="setCustomValidity('')">
+                <label class="labels">Mesajul dumneavoastră</label>
+                <br>
+                <textarea type="text" cols="5" rows="5" placeholder="Mesajul dvs..." required="" oninvalid="this.setCustomValidity('Va rugam scrieti un mesaj')" oninput="setCustomValidity('')"></textarea>
+                <button type="submit">Trimite</button>
+            </form>
+        </div>
+    </section>
+    <br><br</br>
+    <section id="sectionID3">
+        <br>
+        <hr>
+        <br><br>
+        <div id="liste">
+            <br>
+            <ul class="navContactLink"><p class="ulTitle">Volkswagen</p>
+                <li><a href="https://www.porscheromania.ro/ro">Cariere</a></li>
+                <li><a href="ROnews.html">Noutăți</a></li>
+                <li><a href="https://stoc.volkswagen.ro/result-list?svn=true">Autovehicule noi cu livrare imediată</a></li>
+            </ul>
+            <ul class="navContactLink"><p class="ulTitle">Service</p>
+                <li><a href="https://www.volkswagen.ro/service-piese-si-accesorii/service/actiuni-si-oferte">Acțiuni și oferte</a></li>
+                <li><a href="https://www.volkswagen.ro/service-piese-si-accesorii/accesorii/brosuri-accesorii">Cataloage accesorii</a></li>
+                <li><a href="https://www.volkswagen.ro/distribuitor-volkswagen">Caută partener service</a></li>
+                <li><a href="https://www.volkswagen.ro/service-piese-si-accesorii/service/actiuni-si-oferte/programare-service-online">Programare service online</a></li>
+                <li><a href="https://www.volkswagen.ro/service-piese-si-accesorii/service/instructiuni-de-salvare">Instrucțiuni de salvare</a></li>
+            </ul>
+            <ul class="navContactLink"><p class="ulTitle">Social Media</p>
+                <li><img src="https://cdn.volkswagen.ro/media/Box_Footer_SocialLinks_Child_Image_Component/root-ropkw-footer-socialLinks-83538-image/default/0ca3160f/1633005178/social-facebook.svg"><a href="https://www.facebook.com/VolkswagenRomania/">  Facebook</a></li>
+                <li><img src="https://cdn.volkswagen.ro/media/Box_Footer_SocialLinks_Child_Image_Component/root-ropkw-footer-socialLinks-83539-image/default/b75d7b69/1633005181/social-youtube.svg"><a href="https://www.youtube.com/user/VolkswagenRomania"> Youtube</a></li>
+                <li><img src="https://cdn.volkswagen.ro/media/Box_Footer_SocialLinks_Child_Image_Component/root-ropkw-footer-socialLinks-83540-image/default/58d99a62/1633005182/social-instagram.svg"><a href="https://www.instagram.com/volkswagen_romania/"> Instagram</a></li>
+            </ul>
+            <a class="patru" href="#sectionHelp"><img src="https://i.imgur.com/tXTp5tE.png"></a>
+        </div>
+        <br><br>
+        <p class="copyright">© Porsche Romania 2022</p>
+        <br><br>
+    </section>
+</body>
+</html>
